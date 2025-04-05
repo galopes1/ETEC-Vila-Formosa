@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>  
+    <title>  Exemplos de Programas em JavaScript </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+  </head>
+  <body>
+    <script type="text/javascript">
+    
+      /* Script de valor real */
+
+      var HT;
+      var VH;
+      var PD;
+      var TD;
+      var SB;
+      var SL;
+
+      HT = prompt('Entre as horas trabalhadas:','Informe aqui.');
+      VH = prompt('Entre o valor da hora:','Informe aqui.');
+      PD = prompt('Entre o percentual de desconto:','Informe aqui.');
+      SB = parseFloat(HT) * parseFloat(VH);
+      TD = (parseFloat(PD) / 100) * SB;
+      SL = SB - TD;
+
+      document.write('Provento = ', SL);
+    </script>
+  </body>
+</html>

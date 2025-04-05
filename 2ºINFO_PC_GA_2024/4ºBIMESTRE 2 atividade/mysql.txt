@@ -1,0 +1,7 @@
+Create table cliente(     
+idcliente INT(10) NOT NULL AUTO_INCREMENT,
+     nome VARCHAR(70) NOT NULL,
+     endereco VARCHAR(50) NOT NULL,
+     cpf VARCHAR(13) NOT NULL,
+     PRIMARY KEY (idcliente)
+     );

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var not1 = parseInt(prompt('Insira a 1ª nota do aluno'));
+    var not2 = parseInt(prompt('Insira a 2ª nota do aluno'));
+    var not3 = parseInt(prompt('Insira a 3ª nota do aluno'));
+    var not4 = parseInt(prompt('Insira a 4ª nota do aluno'));
+
+    
+    var media = (not1 + not2 + not3 + not4) / 4;
+
+    if(media > 6 && media <= 10){
+        document.write('Você foi aprovado com uma média de ' + media)
+    }
+    else{
+        prompt('Você foi reprovado e precisará fazer um exame para reconsiderar a nota')
+        var notexam = parseInt(prompt('Insira a nota de exame'));
+        var media2 = (notexam + media) / 2;
+            if(media2 >= 5){    
+                document.write('Você foi aprovado em exame com uma média de ' + media2)
+            }
+                else{
+                     document.write('Você foi reprovado em exame com média de ' + media2)
+                }
+    }
+
+    </script>
+</body>
+</html>

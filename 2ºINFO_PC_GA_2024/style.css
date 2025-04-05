@@ -1,0 +1,35 @@
+ p {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+  }  
+
+ LI {
+     color: black;
+     font-size: 20px;
+ }
+
+  h1 {
+
+    color: black;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; 
+    width: 100%;
+    background-color: #E89456;
+
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; 
+  }
+body{
+    background-color: #E87A56;
+}

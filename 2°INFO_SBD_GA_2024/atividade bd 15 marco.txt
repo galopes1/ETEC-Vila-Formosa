@@ -1,0 +1,9 @@
+Atividade 1
+Cliente = (codcliente, nome_cliente, endereco, cidade, cep, uf, cgc, ie)
+Vendedor = (codvendedor, nome_vendedor, salario_fixo, faixa_comissao)
+Produto = (codproduto, unidade, descricao_produto, val_unit)
+
+Atividade 2
+Pais = (codpais, codigopais, nomepais, sigla)
+
+

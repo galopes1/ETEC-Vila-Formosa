@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 50px;
+}
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: blue;
+}
+
+.botao2{
+    margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+h1{
+    font-family: "verdana";
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type=text]{
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    outline: none;
+}
+
+textarea{
+    height: 200px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #eee;
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+fieldset{
+    background-color: #EEE;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 400px;
+    padding: 50px;
+}
+
+legend{
+    background-color:blue;
+    color: #fff;
+    padding: 5px;
+}
